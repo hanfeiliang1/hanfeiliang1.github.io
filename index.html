@@ -25,9 +25,9 @@
             "font-size: 19px; font-weight: bold;">
         </p>
           
-        <button onclick = "GFG_Fun()">
-            my website
-        </button>
+        <h1 onclick = "GFG_Fun()">
+            my website button
+        </h1>
         
         
           
@@ -40,7 +40,7 @@
             var el_up = document.getElementById("GFG_UP");
             var el_down = document.getElementById("GFG_DOWN");
               
-            el_up.innerHTML = "amazing link";
+            //el_up.innerHTML = "amazing link";
               
             function GFG_Fun() {
                   
@@ -49,7 +49,7 @@
                   
                 // Create the text node for anchor element.
                 var link = document.createTextNode("https://hanfeiliang1.github.io");
-                  
+                  /*
                 // Append the text node to anchor element.
                 a.appendChild(link); 
                   
@@ -60,6 +60,7 @@
                 a.href = "https://hanfeiliang1.github.io"; 
                   
                 // Append the anchor element to the body.
+                */
                 document.body.appendChild(a); 
             }
         </script> 
