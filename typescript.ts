@@ -6,12 +6,12 @@ const usser = { //const: create object
     id:1,
 };
 
-interface user{ //interface: create object type, size, 
+interface User{ //interface: create object type, size, 
     name: string; //string != String
     id: number;
 }
 
-const a: user={ //create object with defined object type
+const a: User={ //create object with defined object type
     name: "a",
     id: 2,
 }
@@ -26,7 +26,7 @@ class UserAccount{
     }
 }
 // comment
-const b: user = new UserAccount("check",2); //use constructor to craete object variable
+const b: User = new UserAccount("check",2); //use constructor to craete object variable
 
 function getUser(){ //
     return a;
@@ -53,7 +53,7 @@ const jfk = backpack.get(); // value of jfk is Type
 backpack.add("a");
 
 //strucutral type system
-function userReport( pvg: user){ //output to console
+function userReport( pvg: User){ //output to console
     console.log('${pvg.name},${pvg.number}')
 }
 
