@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <title>
+        my 1st html file
+    </title>
+</head>
+<body>
+<img src="bob marley.jpg" alt=“bobMarley1” title=“bobMarley2”/> <!--width=“x” height=“y”-->
+<!--header label-->
+<h1> h1 header </h1>
+<h2>h2 header</h2>
+
+<p>tutorial learn html in 1 hour
+    <!--change line-->
+    <br/>
+    <!-- horizon line-->
+<hr/>
+<strong>strong label</strong> end of this p label
+</p>
+<!-- passage label-->
+<p>
+    nbsp&nbspSpace sign <!--&nbsp sign -->
+    &copy Copyright sign<!--copy sign-->
+
+    <a href="html101.html">go to this html file</a>
+    <a href="mailto:masonlhf@udel.edu">check my email</a> <!--email anchor-->
+</p>
+<!--list label-->
+<ol>
+    <li>1st list</li>
+    <li>ordered list</li>
+</ol>
+<ul>
+    <li>2nd list</li>
+    <li>not ordered list</li>
+</ul>
+<dl>
+    <dt>3nd list</dt>
+    <dd>description list</dd>
+</dl>
+<!--table label-->
+<p>
+<table border="5px">
+    <tr>
+        <td>a</td>
+        <td colspan="4">b</td>
+    </tr>
+    <tr>
+        <td>c</td>
+        <td colspan="4">d</td>
+    </tr>
+</table>
+
+<!--iframe label-->
+<iframe src="https://hanfeiliang1.github.io/" name="my website"></iframe>
+
+<!--form label-->
+<form action="https://hanfeiliang1.github.io/" method="post">  <!--action keyword: send data-->
+    <p> name: <input type="text" name="username"></p>
+    <p>password:<input type="password" name="pwd">
+    </p>
+    <p>gender:
+        <input type="radio" value="male" name="gender"/>male
+        <input type="radio" value="female" name="gender"/>female
+    </p>
+    <p>fruit:
+        <input type="checkbox" value="apple" name="fruit">apple
+        <input type="checkbox" value="banana" name="fruit">banana
+    </p>
+    <!--button label-->
+    <p>
+        <input type="button" name="button1" value="push">
+        <!--button as a image, not finished-->
+        <input type="image" src="bob marley.jpg">
+    </p>
+    <!--select label-->
+    <p>countries
+        <select name="name">
+            <option value="value">China</option>
+            <option value="value">USA</option>
+            <option value="value" selected>Japan</option> <!--default value-->
+        </select>
+    </p>
+    <!-- textarea label-->
+    <p>comment:
+        <textarea name="textarea" cols="10" rows="8"></textarea>
+    </p>
+    <!--file keyword-->
+    <p>
+        <input type="file" name="files">
+        <input type="button" value="upload" name="upload"> <!--not finished-->
+    </p>
+    <!--verification-->
+    <p>
+        email:<input type="email" name="email">
+        url: <input tyep="url" name="url">
+        number: <input type="number" name="number" max="20" min="1" step="5">
+        range: <input type="range" name=" volume" max="100" min="1" step="2">
+        search: <input type="search" name="search">
+    </p>
+    <!-- readonly-->
+    <p> readonly test:<input type="text" name="text" value="admin" readonly></p>
+    <!--checked disabled-->
+    <p>checked disable: <input type="radio" name="os" value="macOS" checked disabled></p>
+    <!--hidden keyword-->
+    <p>hidden text:<input type="text" name="abc" value="abc" hidden></p>
+    <!--label-->
+    <p>
+        <label for="mark">press me, highlight text box</label>
+        <input type="text" id="mark">
+    </p>
+    <!--placeholder, required keyword-->
+    <p>placeholder, required keyword:<input type="text" placeholder="please input text" , required></p>
+    <!--pattern keyword, not finished-->
+    <p>pattern keyword:<input type="email" pattern="a"></p>
+
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+</form>
+<p><a href="#top">go to top</a></p>
+</body>
+
+<footer>
+    footer label
+</footer>
