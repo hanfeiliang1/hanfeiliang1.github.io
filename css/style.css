@@ -1,0 +1,86 @@
+
+h1 {
+    /*color: red;*/
+}
+.classChooser {
+    /*color: blue*/
+}
+#onlyId {
+    /*color: yellow*/
+}
+/*inherent chooser*/
+body {
+    /*color: black;*/
+}
+body h1{
+    /*color: blue*/
+}
+body > h1 {
+    /*background: red;*/
+}
+ul li:first-child{
+    /*color:red*/
+}
+p:nth-child(1){
+    /*background:red;*/
+}
+p:nth-of-type(2){
+    /*background: red;*/
+}
+ol,ul{
+    /*background: red;*/
+}
+a[id="abc"]{
+    /*background: green;*/
+}
+a[href^=html101]{
+    /*background: red;*/
+}
+span{
+    /*font-size:100px;*/
+    /*font-family: "Helvetica Neue"*/
+    /*font-weight:bold;*/
+    /*color: yellow;*/
+    /*font:light 200px/100px Arial */
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-indent: 2em;
+    /*height:50px;*/
+    /*line-height:300px;*/
+    /*background: blue;*/
+    /*text-decoration:underline;*/ /*line-through, overline*/
+}
+img,span{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color:orange;
+    font-size:66px;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+h1{
+    text-shadow: black 50px 20px 20px;
+}
+ul li{
+    list-style: circle;
+/*    none, circle, decimal, square*/
+}
+.list{
+    /*background: aqua;*/
+    width: 200px;
+    border: 1px solid black;
+    /*background-image: url("bob marley.jpg");*/
+    background: linear-gradient(115deg,black 0%,grey 30%,white 100%);
+}
